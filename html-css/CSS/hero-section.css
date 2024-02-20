@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Dancing Script";
+  src: url(../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\wght.ttf);
+}
+.hero-section {
+  background-image: url("../images/section_hero_720.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 650px;
+}
+.HN {
+  padding-top: 140px;
+ 
+}
+
+.HN h5 {
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 28.8px;
+}
+.HN h2 {
+  font-family: "Dancing Script";
+  font-weight: 600px;
+  font-size: 84px;
+  color: #fff;
+  line-height: 128px;
+ 
+}
+.HN p {
+  color: #fff;
+  font-family: "Open Sans";
+  font-weight: 600px;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 587px;
+}
+.HN button {
+  border-radius: 100px;
+  border: 1.5px solid #232323;
+  background: #f18f01;
+  padding: 20px 50px 20px 50px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  color:#FFF ;
+  margin-top:60px;
+}
+
+@media (max-width: 768px) {
+    .HN h5 {
+     display: none;
+    }
+    .HN h2 {
+      font-family: "Dancing Script";
+      font-weight: 600px;
+      font-size: 48px;
+      color: #fff;
+      line-height: 128px;
+      text-align: center;
+     
+    }
+    .HN p {
+      color: #fff;
+      font-family: "Open Sans";
+      font-weight: 600px;
+      font-size: 17px;
+      line-height:31px;
+      max-width: 387px;
+      text-align:center;
+      margin-left: 40px;
+    }
+    .HN button {
+      padding: 20px 120px 20px 120px;
+      color:#FFF ;
+      margin-top:60px;
+   
+   
+    }
+    .HN {
+      text-align: center;
+     
+    }
+    
+}  
+
+@media (min-width:769px) and (max-width:1024px) {
+  .HN h2 {
+    font-family: "Dancing Script";
+      font-weight: 600px;
+      font-size: 70px;
+      color: #fff;
+      line-height: 128px;
+      text-align: left;
+      margin-left: 30px;
+     
+   
+  }
+
+  .HN p {
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 600px;
+    font-size: 17px;
+    line-height:31px;
+    max-width: 570px;
+    text-align: left;
+    margin-left: 30px;
+   
+  }
+  .HN {
+    text-align: left;
+   
+  }
+  .HN button {
+  margin-left: 30px;
+ 
+ 
+  }
+  .HN h5 {
+    color: #fff;
+    font-family: "Open Sans";
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 28.8px;
+    margin-left: 30px;
+  }
+}

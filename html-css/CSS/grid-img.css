@@ -1,0 +1,9 @@
+.grid-con {
+  display: grid;
+  grid-template-rows: 100%;
+  height: 156px;
+  background-image: url("../images/Rectangle\ 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -107px;
+}

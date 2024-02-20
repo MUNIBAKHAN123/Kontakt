@@ -1,0 +1,54 @@
+.fourth-section {
+  text-align: center;
+  margin-top: 140px;
+}
+.fourth-section h5 {
+  color: #333;
+  text-align: center;
+  font-family: "Dancing Script";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52.8px;
+ padding-bottom: 30px;
+}
+.fourth-section p {
+  color: #232323;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  padding-top: 20px;
+}
+.hr{
+
+  background-color: aqua;
+}
+
+hr {  
+  height: 4px;  
+  background-color: #F18F01;  
+  border: none;  
+  width: 17%;
+  padding-top: 3px;
+}  
+
+@media (max-width: 768px) {
+  .fourth-section{
+
+      font-size: 48px;
+    
+  }
+  .fourth-section p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    padding: 20px;
+    padding-right: 20px;
+   
+  }
+}

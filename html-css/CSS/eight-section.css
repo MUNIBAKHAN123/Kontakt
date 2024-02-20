@@ -1,0 +1,109 @@
+
+   .grid-eight-section{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 220px;
+
+
+   }
+
+   .eight-inner h2{
+   color: #333;
+  font-family:"Dancing Script";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 85px;
+ 
+
+
+   }
+   .eight-inner p{
+    font-family: "Open Sans";
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 30px;
+
+   }
+
+   .eight-inner1 ul{
+
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  
+   }
+   .eight-inner1 {
+      padding-top: 10px;
+       }
+   .eight-inner1 ul li{
+
+    list-style: none;
+  
+   
+    
+   }
+   @media (max-width: 768px) {
+      .grid-eight-section{  
+        grid-template-columns: 1fr;
+        
+
+        
+      }
+      .eight-inner h2{
+        font-size: 48px;
+        line-height: 52px;
+        text-align: center;
+   }
+
+   .eight-inner p{
+      font-family: "Open Sans";
+      font-weight: 400px;
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+      padding-left: 35px;
+      padding-right: 35px;
+  
+     }
+     .eight-inner1 ul{
+
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      
+       }
+}
+
+/*---------------------------tab-----------------------*/
+@media  (min-width:769px) and (max-width: 1024px) {
+   .grid-eight-section{  
+     grid-template-columns: 1fr;
+    
+   }
+
+.eight-inner h2{
+  font-size: 48px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.eight-inner p{
+font-family: "Open Sans";
+font-weight: 400px;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+
+
+}
+.eight-inner1 ul{
+
+display: flex;
+justify-content: center;
+gap: 20px;
+
+ }
+   
+}

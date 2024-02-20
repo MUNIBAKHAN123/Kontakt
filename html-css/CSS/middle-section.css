@@ -1,0 +1,142 @@
+@media screen and (min-width: 1225px) {
+  .grid-inner {
+    width: 1224; /* Only one column for smaller screens */
+  }
+}
+
+
+/*.grid-middle-section {
+  display: grid;
+  grid-template-rows:auto;
+  margin-top:40px;
+  padding: 0px;
+}
+*/
+.gird-inner {
+  display: grid;
+  grid-template-columns:repeat(3,auto);
+  column-gap:40px;
+  justify-content: center;
+  padding-top:65px;
+ 
+}
+.sectionone {
+  background: #f5ecd7;
+  padding-bottom: 42px;
+  border-radius: 4px;
+  box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.25);
+}
+.sectiontwo {
+ 
+  border-radius: 4px;
+  background: #f5ecd7;
+  box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.25);
+  padding-bottom: 42px;
+}
+.sectionthree {
+  padding-bottom: 42px;
+  border-radius: 4px;
+  background: #f5ecd7;
+  box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.25);
+}
+.section-paragraph {
+  width:337px;
+  min-height:229px;
+  margin-left:32px;
+ 
+}
+.section-paragraph p {
+  color: #5c5c5c;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26.4px;
+}
+.middle-h {
+  margin-top: 36px;
+  margin-left: 32px;
+  margin-bottom: 20px;
+}
+.middle-h h3 {
+  color: #203A4B;
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.4px;
+}
+.section-but {
+  justify-content: center;
+  margin-left: 22px;
+  padding-top: 10px;
+
+}
+.section-but button {
+  border-radius: 100px;
+  border: 2px solid #232323;
+  color: white;
+  background: #f18f01;
+  padding: 18px 46px 18px 46px;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 768px) {
+  .gird-inner{
+    grid-template-columns: 1fr;
+    grid-row-gap: 55px;
+    justify-content: center;
+    padding-left:40px;
+    padding-right:40px;
+  }
+  .sectionone {
+    text-align: center;
+  }
+  .section-paragraph p {
+    text-align: center;
+  } 
+  .middle-h {
+    margin-top: 36px;
+    margin-bottom: 20px;
+  }
+  .sectiontwo {
+ 
+    text-align: center;
+  }
+  .sectionthree {
+    text-align: center;
+  }
+}
+
+
+
+/*tabelt*/
+@media  (min-width:769px) and (max-width: 1024px) {
+  .gird-inner{
+    grid-template-columns: 1fr;
+    grid-row-gap: 55px;
+    justify-content:center;
+    padding-left:40px;
+    padding-right:40px;
+  }
+ .image1{
+      width:100%;
+  }
+  .sectionone {
+    text-align: center;
+  }
+  .section-paragraph p {
+    text-align:center;
+ 
+  } 
+  .section-paragraph {
+   text-align:center;
+   min-width: 650px;
+   
+  }
+  .sectionthree {
+    text-align: center;
+  }
+  .sectiontwo {
+    text-align: center;
+  }
+}

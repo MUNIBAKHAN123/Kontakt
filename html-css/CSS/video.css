@@ -1,0 +1,32 @@
+.grid-video {
+  display: grid;
+  grid-template-rows: 1fr;
+  background-image: url("../images/Frame\ 1\ Video.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+ margin-top: 140px;
+ min-height: 449px;
+}
+.video-section {
+  display: grid;
+  justify-content:center;
+}
+
+
+
+@media (max-width: 768px) {
+  .grid-video{
+   min-height:350px;
+  }
+  .video-section{
+    height:245px;
+    
+   }
+
+  .image{
+
+    width:310px;
+    height:220px;
+  }
+}

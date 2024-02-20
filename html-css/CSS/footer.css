@@ -1,0 +1,147 @@
+.footer{
+
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background-color: #203A4B;
+    margin-top:52px;
+   
+}
+.f1{
+
+   justify-self: flex-end;
+    padding-top: 100px;
+    padding-bottom: 105px;
+}
+.f1 h5{
+    font-family: "Open Sans";
+    font-weight:700px;
+    font-size: 19px;
+    color: #FFFF; 
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+.f1 h6{
+     font-family: "Open Sans";
+     font-weight: 400px;
+     font-size: 16px;
+    color: #FFFF;
+    line-height: 29.92px;
+    padding-bottom: 10px;
+    
+}
+
+.f2{
+    justify-self: flex-end;
+    padding-top: 100px;
+    padding-bottom: 105px;
+    margin-right: 20%;
+
+
+}
+.f2 h5{
+    font-family: "Open Sans";
+    font-weight:700px;
+    font-size: 19px;
+    color: #FFFF;
+    line-height: 28px;
+    padding-bottom: 10px;
+   
+
+}
+.f2 h6{
+
+    font-family: "Open Sans";
+    font-weight: 400px;
+    font-size: 16px;
+   color: #F18F01;
+   line-height: 17.6px;
+   padding-bottom: 10px;
+   
+
+}
+
+.f3 {
+    justify-self: flex-end;
+    padding-top: 100px;
+    padding-bottom:105px;
+    margin-right: 44%;
+
+}
+.f3 h5{
+    font-family: "Open Sans";
+    font-weight:700px;
+    font-size: 19px;
+    color: #FFFF;
+    line-height: 28px;
+    padding-bottom: 10px;
+}
+.f3 h6{
+
+    color: #F18F01;
+    font-family: "Open Sans";
+    font-weight: 400px;
+    font-size: 16px;
+   line-height: 17.6px;
+   padding-bottom: 10px;
+}
+.f3  a{
+    text-decoration: none;
+}
+@media (max-width: 768px) {
+    .footer{  
+      grid-template-columns: 1fr;
+      
+
+      
+    }
+
+    .f1{
+
+        justify-self: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 0px;
+     }
+
+     .f2{
+        justify-self:center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+       margin-right: 0%;
+    }
+
+    .f3 {
+        justify-self: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-right: 0%;
+    }
+    
+    }
+    .f1 h5{
+        text-align: center;
+    }
+    .f1 h6{
+         text-align: center;
+        
+    }
+    .f2 h5{
+        text-align: center;
+        padding-bottom: 10px;
+       
+    
+    }
+    .f2 h6{
+    
+        text-align: center;
+       
+    
+    }
+    
+    .f3 h5{
+       text-align: center;
+    }
+    .f3 h6{
+       text-align: center;
+    }
+}
